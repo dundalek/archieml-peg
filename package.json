@@ -1,0 +1,43 @@
+{
+  "name": "archieml-peg",
+  "version": "0.1.0",
+  "description": "Alternative parser for ArchieML using PEG (Parsing Expression Grammar)",
+  "main": "dist/archieml.js",
+  "scripts": {
+    "test": "node_modules/phantomjs/bin/phantomjs node_modules/archieml/test/vendor/runner.js test/index.html?noglobals=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dundalek/archieml-peg"
+  },
+  "author": "Jakub Dundalek",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/dundalek/archieml-peg/issues"
+  },
+  "homepage": "https://github.com/dundalek/archieml-peg",
+  "keywords": [
+    "archie",
+    "markup",
+    "language",
+    "archieml",
+    "aml",
+    "text",
+    "parser",
+    "peg",
+    "pegjs"
+  ],
+  "devDependencies": {
+    "archieml": "^0.1.0",
+    "gulp": "^3.8.11",
+    "gulp-preprocess": "^1.2.0",
+    "gulp-through": "^0.3.0",
+    "pegjs": "^0.8.0",
+    "phantomjs": "^1.9.16"
+  }
+}
