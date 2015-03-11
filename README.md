@@ -1,6 +1,6 @@
 # archieml-peg
 
-Parse [ArchieML](http://archieml.org) documents into JavaScript objects. This is an alternative implementation using [PEG.js](https://github.com/pegjs/pegjs). See the code for [parser](aml.parser.pegjs) and [compiler](aml.compiler.js). It passes all the tests from the original implementation.
+Parse [ArchieML](http://archieml.org) documents into JavaScript objects. This is an alternative implementation using [PEG.js](https://github.com/pegjs/pegjs). Look at the graphical [visualization](http://dundalek.com/GrammKit/#https://cdn.rawgit.com/dundalek/archieml-peg/6d882f42de57d850f72772cde9aadc7a4ee579bf/aml.parser.pegjs) of the grammar. See the code for [parser](aml.parser.pegjs) and [compiler](aml.compiler.js). It passes all the tests from the original implementation.
 
 Be sure to also check out the [official implementation](https://github.com/newsdev/archieml-js).
 
