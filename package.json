@@ -1,6 +1,6 @@
 {
   "name": "archieml-peg",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Alternative parser for ArchieML using PEG (Parsing Expression Grammar)",
   "main": "dist/archieml.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "pegjs"
   ],
   "devDependencies": {
-    "archieml": "^0.1.0",
+    "archieml": "0.1.2",
     "gulp": "^3.8.11",
     "gulp-preprocess": "^1.2.0",
     "gulp-through": "^0.3.0",
